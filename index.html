@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jira dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+    <div class="root">
+      <div class="container" id="todo">
+        <h3>To Do</h3>
+        <button class="create-button">
+            <span class="material-icons">add</span>
+            <span>Create Issue</span>
+        </button>
+        <input type="text" class="issue-input hide" placeholder="Enter issue title" > 
+      </div>
+      <div class="container" id="in-progress">
+        <h3>In Progress</h3>
+      </div>
+      <div class="container" id="done">
+        <h3>Done</h3>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./dragDrop.js"></script>
+  </body>
+</html>
